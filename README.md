@@ -1,5 +1,5 @@
 # HEAs_Hardness_Prediction
-Prediction of hardness of HEAs based on composition. 
+This model predicts the hardness of HEAs based on composition. The code is still under development, so do not blindly trust the predictions. 
 - Clone the repo using
   ```
   git clone https://github.com/Sachin17p/HEAs_Hardness_Prediction.git
