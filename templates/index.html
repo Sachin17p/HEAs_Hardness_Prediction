@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hardness Prediction</title>
+</head>
+<body>
+    <h1>Hardness Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="C.al">%Al:</label>
+        <input type="text" id="feature1" name="features" required><br><br>
+
+        <label for="C.co">%Co:</label>
+        <input type="text" id="feature2" name="features" required><br><br>
+
+        <label for="C.cr">%Cr:</label>
+        <input type="text" id="feature3" name="features" required><br><br>
+
+        <label for="C.cu">%Cu:</label>
+        <input type="text" id="feature4" name="features" required><br><br>
+
+        <label for="C.fe">%Fe:</label>
+        <input type="text" id="feature5" name="features" required><br><br>
+
+        <label for="C.ni">%Ni:</label>
+        <input type="text" id="feature6" name="features" required><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
